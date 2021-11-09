@@ -54,7 +54,7 @@ while True:
  #Transformamosa float los datos (esto facilita la lectura de otros servicio como grafana)
  
  
- #usamos la funcion time para grabar el tiempo en la base de datos
+ #usamos la funcion time para grabar el tiempo en la base de datos (asci time)
  fecha =time.asctime()
 
  #finalisa el proceso de transformacio de data
