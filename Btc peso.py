@@ -24,7 +24,9 @@
 import requests
 from influxdb import InfluxDBClient
 import time
-
+print("------------------------")
+print("El Programeitor se incia")
+print("------------------------")
 #Datos de del Host de la base de datos(ip,puerto,usuario,contraseña)
 client = InfluxDBClient(host='192.168.0.200', port=8086, username='fedelopez47', password='1234' )
 #Nombre de la base de datosexit
